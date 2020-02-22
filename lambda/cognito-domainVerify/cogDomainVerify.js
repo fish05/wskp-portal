@@ -5,7 +5,7 @@ exports.handler = function (event, context) {
 
     // Log the event information for debugging purposes.
     console.log('Received event:', JSON.stringify(event, null, 2));
-    
+
     if (event.request.userAttributes.email.endsWith('@' + approvedDomain)) {
         console.log("This is an approved email address. Proceeding to send verification email.");
         event.response.emailSubject = "Signup Verification Code";
