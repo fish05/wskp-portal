@@ -23,7 +23,7 @@ exports.handler = (event, context, callback) => {
 
     // The WorkSpace will be created according to the passed parameters (Email, Username, Bundle ID). The email address will be set as a tag value for the
     // 'SelfServiceManaged' tag. This tag ultimately controls the mapping of users to WorkSpaces from the Portal's perpsective.
-    
+
     var originURL = process.env.ORIGIN_URL || '*';
 
     console.log("Received event: " + event);
