@@ -55,7 +55,7 @@ exports.handler = (event, context, callback) => {
             ProjectionExpression: "Email, Username, WS_Status",
             TableName: tableName
            };
-           
+
            ddb.scan(params, function(err, data) {
              if (err) {
                console.log("Error", err);
