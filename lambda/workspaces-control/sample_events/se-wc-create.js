@@ -4,9 +4,9 @@ module.exports =
         "httpMethod": "POST",
         "authorizer": {
             "claims": {
-                "email": "earl@eeg3.net"
+                "email": "vjrangarajan@gmail.com"
             }
         }
     },
-    "body": "{\"action\":\"create\",\"username\":\"earl\",\"bundle\":\"wsb-92tn3b7gx\"}"
+    "body": "{\"action\":\"create\",\"username\":\"vj\",\"bundle\":\"wsb-9jvhtb24f\"}"
 };

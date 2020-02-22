@@ -13,7 +13,7 @@ module.exports =
                 "cognito:username": "earl-at-eeg3.net",
                 "exp": "Sun Dec 17 07:28:12 UTC 2017",
                 "iat": "Sun Dec 17 06:28:12 UTC 2017",
-                "email": "earl@eeg3.net"
+                "email": "vjrangarajan@gmail.com"
             }
         },
         "httpMethod": "POST"
