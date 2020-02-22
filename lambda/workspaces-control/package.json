@@ -6,7 +6,7 @@
   "scripts": {
     "test": "lambda-local -l workspaces-control.js -e sample_events/se-wc-create.js"
   },
-  "author": "Earl Gay",
+  "author": "Vijay Rangarajan",
   "license": "BSD-2-Clause",
   "dependencies": {
     "aws-sdk": "^2.170.0"

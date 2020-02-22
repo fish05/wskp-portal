@@ -18,7 +18,10 @@ exports.handler = (event, context, callback) => {
     var originURL = process.env.ORIGIN_URL || "*"; // Origin URL to allow for CORS
     var stateMachine =
         process.env.STATE_MACHINE_ARN ||
-        "arn:aws:states:us-east-1:375301133253:stateMachine:PromotionApproval"; // State Machine for 'create' action.
+        "arn:aws:states:us-east-1:854554622026:stateMachine:PromotionApproval";
+
+        //"arn:aws:states:us-east-1:375301133253:stateMachine:PromotionApproval";
+        // State Machine for 'create' action.
     var detailsLambda =
         process.env.DETAILS_LAMBDA ||
         "wsp-db-int-serverless-stack-workspacesDetails-1J4ZB3URZF2QP";
