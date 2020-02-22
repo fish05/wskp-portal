@@ -6,6 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Earl Gay",
+  "author": "Vijay Rangarajan",
   "license": "BSD-2-Clause"
 }
