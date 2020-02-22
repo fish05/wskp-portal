@@ -1,7 +1,7 @@
 module.exports = {
     "action": "put",
-    "requesterEmailAddress": "earl@eeg3.net",
-    "requesterUsername": "earltest",
-    "requesterBundle": "wsb-92tn3b7gx",
+    "requesterEmailAddress": "vjrangarajan@gmail.com",
+    "requesterUsername": "vjrangarajan",
+    "requesterBundle": "wsb-9jvhtb24f",
     "ws_status": "Requested"
 };
