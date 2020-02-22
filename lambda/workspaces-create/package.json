@@ -6,7 +6,7 @@
   "scripts": {
     "test": "lambda-local -l workspaces-create.js -e sample_events/se-workspaces-create.js"
   },
-  "author": "Earl Gay",
+  "author": "VJ",
   "license": "BSD-2-Clause",
   "dependencies": {
     "aws-sdk": "^2.175.0"
