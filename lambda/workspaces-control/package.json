@@ -9,6 +9,6 @@
   "author": "Vijay Rangarajan",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "aws-sdk": "^2.170.0"
+    "aws-sdk": "^2.814.0"
   }
 }
